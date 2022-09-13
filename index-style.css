@@ -1,0 +1,24 @@
+
+.login-logo
+{
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 2px;
+}
+
+.bg-image 
+{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
