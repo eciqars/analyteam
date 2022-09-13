@@ -8,10 +8,16 @@
     margin-top: 100px;
 }
 
-h1
+.title-text
 {
     text-align: center;
-    font-size: 2px;
+    font-size: 30px;
+}
+
+.subtitle
+{
+    text-align: center;
+    font-size: 15px;
 }
 
 .bg-image 
@@ -21,4 +27,49 @@ h1
     background-position: center;
     background-repeat: no-repeat;
     position: fixed;
+    height: 100vh;
+}
+
+#uname, #pword
+{
+    width: 50%;
+  padding: 8px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-color: lightgrey;
+  color: lightgray;
+  border-width: 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#login-submit
+{
+    width: 50%;
+    padding: 8px 15px;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: black;
+  color: white;
+  border-width: 1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.smaller-text
+{
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    color: black;
+}
+
+.admin-redirect
+{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    color: black;
 }
